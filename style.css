@@ -24,6 +24,27 @@ p{
     margin : auto;
     background: #fff;
 }
+#lead-banner{
+    background: url('./images/lead-banner.jpg') center right;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+}
+.lead-text{
+    position : relative;
+    top : 45%;
+    width: 40rem;
+    text-align: center;
+    background-color : #DDD;
+    font-size : 2.5rem;
+    letter-spacing : 8px ;
+    text-transform : uppercase;
+    line-height: 5rem;
+    padding: 0 2rem;
+    color: #030303;
+    margin: auto;
+}
 #main-navigation{
     background: #030303;
     padding: 1rem;
