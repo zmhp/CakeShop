@@ -140,7 +140,7 @@ p{
 #contact-details h1, #contact-form h1{
     text-transform: uppercase;
 }
-@media (max-width : 900px){
+@media (max-width : 980px){
     #cake{
         display: inline-block;
         width: 48%;
@@ -156,7 +156,7 @@ p{
         width: 90%;
     }
 }
-@media (max-width : 550px){
+@media (max-width : 640px){
     #cake{
         display: block;
         width: 100%;
