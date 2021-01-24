@@ -18,6 +18,7 @@ h1{
 p{
     margin-bottom: 1rem;
     line-height: 2rem;
+    text-align: justify;
 }
 .wrapper{
     width: 100%;
@@ -138,6 +139,9 @@ p{
     margin-bottom: 0.5rem;
     font-weight: bold;
 }
+#contact-details  p{
+    text-align: center;
+}
 #contact-form{
     display: inline-block;
     width: 50%;
@@ -161,6 +165,18 @@ p{
 #contact-details h1, #contact-form h1{
     text-transform: uppercase;
 }
+.about-image{
+    width: 26% !important;
+    display: inline-block;
+    float: left;
+    padding: 2rem 2%;
+    
+}
+.about-text{
+    display: inline-block;
+    width: 66%;
+    padding: 2rem 2%;
+}
 @media (max-width : 980px){
     #cake{
         display: inline-block;
@@ -175,6 +191,15 @@ p{
         display: block;
         padding: 5%;
         width: 90%;
+    }
+    .about-image{
+        width: 100% !important;
+        padding: 2rem 5%;
+        
+    }
+    .about-text{
+        width: 90%;
+        padding: 2rem 5%;
     }
 }
 @media (max-width : 640px){
