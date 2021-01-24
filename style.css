@@ -23,7 +23,7 @@ body{
 }
 
 #main-navigation ul{
-    text-align: right;
+    text-align: center;
     list-style-type : none;
     margin:1rem;
 }
@@ -96,5 +96,17 @@ body{
     padding : 0.5rem 0;
 }
 
+@media (max-width : 900px){
+    #cake{
+        display: inline-block;
+        width: 48%;
+    }
+}
 
+@media (max-width : 550px){
+    #cake{
+        display: block;
+        width: 100%;
+    }
+}
 
