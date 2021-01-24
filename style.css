@@ -102,5 +102,11 @@ body{
         display: block;
         width: 100%;
     }
+    #main-navigation ul{
+        margin:0.5rem;
+    }
+    #main-navigation ul li{
+        margin-left: 0;
+    }
 }
 
